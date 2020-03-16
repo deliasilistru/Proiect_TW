@@ -1,0 +1,142 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* INCEPUT */
+
+
+.test {
+	background-image: url("../imagini/banda1.jpg");
+	height: 200px;
+	width: 100%;
+}
+header img{
+	margin-top:10px;
+	float: left;
+}
+
+.container {
+	width: 1000px;
+	
+	margin: 0 auto;
+	margin-top: 20px ;
+	height: auto;
+	background-color: white;
+}
+
+html{
+		font-size: 16px;
+		}
+		
+
+	main{
+		padding-left:10%;
+		padding-right:10%;
+		padding-top:50px;
+	}	
+	
+	
+	
+
+/* ------------meniu ------------------*/
+
+nav{    width: 2000px;
+       position: sticky;
+	   top: 0px;	
+	  
+	}
+	
+ul.menu>li, ul.menu>li>ul.submenu>li{
+		display:block;
+		font-size:1.2rem;
+		font-weight:bold;
+		height:1.2rem;
+		line-height:1.2rem;
+		text-align:center;		
+		list-style-type:none;
+		overflow:hidden;
+		text-decoration: none;
+	}
+	
+ul.menu>li{
+	 float:left;
+	 width:12.5%;
+	}
+
+	
+ul.submenu>li{
+	 width:100%;
+	}
+
+ul.menu>li>a, ul.menu>li>div>a, ul.submenu>li>a{
+		display:block;
+		height:	100%;
+		text-decoration: none;
+		color:black;
+		background:grey;
+	}
+ul.menu>li>ul.submenu{
+		position:relative;
+		top:0px;
+	}
+	ul.menu>li>ul.submenu>li
+	{
+		border-top:1px solid black;
+	}
+	ul.menu>li>ul.submenu>li:last-child
+	{
+		border-bottom:1px solid black;
+	}
+
+	ul.menu>li>a:hover, ul.menu>li>div>a:hover, ul.submenu>li>a:hover{
+		 background-color: #c40000;
+         color: white;
+	}
+	ul.menu>li:hover{
+		overflow:visible;
+	
+	}
+	
+	
+	
